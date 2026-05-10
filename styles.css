@@ -1,0 +1,41 @@
+body{
+    background-color: white;
+}
+section{
+    background-image: url("Mundialnav.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    padding: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+}
+
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.diamante{
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.texto-descripcion{
+    text-align: center;
+    padding: 20px;
+}
+
+
+.contenedor-imagenes img:hover{
+    transform: scale(1.04);
+    border-radius: 20px;
+}
