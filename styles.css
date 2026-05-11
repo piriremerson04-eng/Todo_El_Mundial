@@ -1,7 +1,7 @@
 body{
     background-color: white;
 }
-section{
+.portada{
     background-image: url("Mundialnav.jpeg");
     background-size: cover;
     background-position: center;
@@ -75,4 +75,78 @@ img{
 }
 img{
     border-radius: 10px;
+}
+
+/* Gali */
+
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center; 
+}
+
+/* cuadros */
+.card{
+    width: 110px;
+    height: 110px;
+    border-radius: 10px;
+    color: rgb(255, 8, 8);
+    font-family: cursive;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 15px;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.3);
+    transition: 0.3s;
+}
+
+.tarjeta h3{
+    text-align: center;
+    margin: 8px 0 3px 0;
+    color: black;
+    font-family: cursive;
+}
+
+.tarjeta p{
+    text-align: center;
+    margin: 0;
+    color: rgb(0, 0, 0);
+    font-family: cursive;
+}
+
+/* imagenes */
+.ganador1{
+    background-image: url("brazil.jpg");
+}
+
+.ganador2{
+    background-image: url("franciacopa.jpg");
+}
+
+.ganador3{
+    background-image: url("brazzil2.jpg");
+}
+
+.ganador4{
+    background-image: url("francia2.jpg");
+}
+
+.ganador5 {
+    background-image: url("españa.jpg");
+}
+
+.ganador6 {
+    background-image: url("alemania.jpg");
+}
+
+.ganador7 {
+    background-image: url("francia2s.jpg");
+}
+
+.ganador8 {
+    background-image: url("argentina.jpg");
 }
