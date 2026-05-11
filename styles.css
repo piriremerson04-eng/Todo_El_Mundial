@@ -150,3 +150,84 @@ img{
 .ganador8 {
     background-image: url("argentina.jpg");
 }
+
+/* Nimsi */
+
+
+
+/* ENTRENADORES */
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    padding: 40px;
+}
+
+
+/* IMAGEN */
+.entrenadores img{
+    width: 40%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* NOMBRE */
+.card h3{
+    font-family: cursive;
+    color:#000;
+    font-size: 28px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* NOTICIAS */
+.mundiales{
+    padding: 40px;
+}
+
+/* CADA NOTICIA */
+.noticia{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+}
+
+/* IMAGEN */
+.noticia img{
+    width: 400px;
+    border-radius: 10px;
+}
+
+/* TEXTO */
+.texto-noticia{
+    max-width: 500px;
+}
+
+.texto-noticia h3{
+    font-size: 40px;
+    margin-bottom: 15px;
+    font-family: cursive;
+    color: black;
+}
+
+.texto-noticia p{
+    font-size: 18px;
+    color: #555;
+    line-height: 1.5;
+}
+
+/* RESPONSIVE */
+.card{
+    width: 90%;
+}
+
+.card img{
+    height: auto;
+    margin: 0 0 0 400px;
+}
