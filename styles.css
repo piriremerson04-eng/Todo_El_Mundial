@@ -2,11 +2,10 @@ body{
     background-color: white;
 }
 section{
-    background-image: url("Mundialnav.png");
+    background-image: url("Mundialnav.jpeg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    
     padding: 80px;
     display: flex;
     justify-content: space-between;
@@ -38,4 +37,42 @@ footer {
 .contenedor-imagenes img:hover{
     transform: scale(1.04);
     border-radius: 20px;
+}
+
+/* keila */
+
+.contenedor-mundiales{
+    width: 80%;
+    height: 15%;
+    text-align: center;
+    padding: 10px;
+    padding-top: 5px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 2%;
+}
+h2{
+    color: black;
+    font-family: cursive;
+    text-align: center;
+}
+p{
+    color: gray;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: left;
+}
+.mundial1{
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    flex-direction: row-reverse;
+}
+img{
+    width: 300px;
+    height: 200px;
+    max-width: 300px;
+}
+img{
+    border-radius: 10px;
 }
